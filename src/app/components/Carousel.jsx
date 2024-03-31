@@ -62,7 +62,7 @@ const CardCarousel = () => {
     <Slider {...settings} className=''>
           
             {data.map((item)=>(
-                <Ticket id={item.id} title={item.title} img={item.img} date={item.date} location={item.location} button={item.button} />
+                <Ticket key={item.id} title={item.title} img={item.img} date={item.date} location={item.location} button={item.button} />
             ))}
     </Slider>
   );

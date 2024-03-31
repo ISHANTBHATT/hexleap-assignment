@@ -14,7 +14,7 @@ function Home() {
            </a>
           <div className='flex flex-wrap justify-center'>
           {data2.map((item)=>(
-                <Card id={item.id} title={item.title} img={item.img} Number={item.Number} sport={item.sport}/>
+                <Card key={item.id} title={item.title} img={item.img} Number={item.Number} sport={item.sport}/>
             ))}
             <AdCard />
           </div>
