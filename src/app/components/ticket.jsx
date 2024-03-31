@@ -1,6 +1,6 @@
 import React from "react";
 
-const ticket = ({id,title,img,location,date,button}) => {
+const ticket = ({key,title,img,location,date,button}) => {
   return (
     <div class="flex flex-col items-center justify-center min-h-screen bg-center bg-cover">
   <div class="absolute opacity-80 inset-0 z-0"></div>

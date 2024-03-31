@@ -19,7 +19,7 @@ export default function Home() {
           <div className="flex flex-wrap justify-center">
             {data2.map((item) => (
               <Card
-                id={item.id}
+                key={item.id}
                 title={item.title}
                 img={item.img}
                 Number={item.Number}
